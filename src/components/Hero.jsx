@@ -6,7 +6,7 @@ const Hero = () => {
     <section>
           <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
-              <div className="flex flex-col items-center sm:items-start mt-12 mb-16  lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0">
+              <div className="flex flex-col items-center sm:items-start lg:mt-12 mb-16  lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0">
                 <h1 className="text-4xl font-bold leading-none  text-white md:text-7xl lg:text-6xl ">
                 Terokai ilmu 
                 </h1>
