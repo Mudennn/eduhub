@@ -26,7 +26,7 @@ const Footer = () => {
               Sekolah Kripto adalah pusat Inter-Operasi ilmu yang menyediakan pembelajaran dan kesedaran tentang Blockchain, Aset Kripto, DeFi & NFT di Malaysia.
               </p>
             </div>
-            <div className="mt-8 text-3xl flex items-center justify-center md:justify-start gap-4">
+            <div className="mt-8 text-3xl flex items-center justify-start gap-4">
                   <a
                     href="https://twitter.com/Mudennn"
                     target="_blank"

@@ -7,12 +7,13 @@ const Kurikulum = () => {
   return (
     <div className="py-20 ">
       <div className=" mx-auto p-4 ">
-        <p className="text-md py-2 text-center text-white ">
-          Pilih laluan anda untuk mempelajari asas web3!
-        </p>
-        <h3 className=" text-xl sm:text-3xl font-bold text-center text-white">
+      <h3 className=" lg:text-3xl text-3xl font-bold text-center text-white">
           Terokai Lalu Pembelajaran Kami
         </h3>
+        <p className="text-sm lg:text-base py-2 text-center text-gray-400 mt-2">
+          Pilih laluan anda untuk mempelajari asas web3!
+        </p>
+        
       </div>
 
       <div className="px-4 py-10 mx-2 sm:mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-18 ">
@@ -30,12 +31,12 @@ const Kurikulum = () => {
               <p className="mb-3 text-gray-400 text-sm">
                 Mulakan dari sini jika anda baru menggunakan web3.
               </p>
-              <div className="flex items-center justify-center sm:justify-start gap-2 mt-4 ">
+              <div className="flex items-center justify-start gap-2 mt-4 ">
                 <a
                   href="/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-2 px-5 py-2 bg-yellow-500 rounded-lg font-semibold text-sm"
+                  className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
                 >
                   Mula Belajar
                 </a>
@@ -56,12 +57,12 @@ const Kurikulum = () => {
               <p className="mb-3 text-gray-400 text-sm">
                 Belajar bagaimana cara untuk membeli, menjual dan mint nft.
               </p>
-              <div className="flex items-center justify-center sm:justify-start gap-2 mt-4 ">
+              <div className="flex items-center justify-start gap-2 mt-4 ">
                 <a
                   href="/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-2 px-5 py-2 bg-yellow-500 rounded-lg font-semibold text-sm"
+                  className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
                 >
                   Mula Belajar
                 </a>
@@ -83,12 +84,12 @@ const Kurikulum = () => {
                 Belajar bagaimana nak menyimpan, meminjam dan melabur aset
                 kirpto anda.
               </p>
-              <div className="flex items-center justify-center sm:justify-start gap-2 mt-4 ">
+              <div className="flex items-center justify-start gap-2 mt-4 ">
                 <a
                   href="/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-2 px-5 py-2 bg-yellow-500 rounded-lg font-semibold text-sm"
+                  className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
                 >
                   Mula Belajar
                 </a>

@@ -4,16 +4,16 @@ import Logo2 from "../images/Roachpunks.jpg"
 const Hero = () => {
   return (
     <section>
-          <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
+          <div className="px-4 pb-20 lg:pt-5 pt-8 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
-              <div className="flex flex-col items-center sm:items-start lg:mt-12 mb-16  lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0">
-                <h1 className="text-4xl font-bold leading-none  text-white md:text-7xl lg:text-6xl ">
+              <div className="flex flex-col items-center lg:items-start lg:mt-12 mb-16  lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0">
+                <h1 className="text-4xl  font-bold leading-none  text-white md:text-6xl lg:text-6xl ">
                 Terokai ilmu 
                 </h1>
-                <h1 className="relative inline-flex text-4xl font-bold leading-none  text-white md:text-7xl lg:text-6xl ">
+                <h1 className="relative inline-flex text-4xl font-bold leading-none  text-white md:text-6xl lg:text-6xl ">
                 Blockchain!
                 </h1>
-                <p className="mb-8 mt-5 text-base leading-relaxed text-center sm:text-left text-gray-400">
+                <p className="mb-8 mt-5 text-base leading-relaxed text-center lg:text-left text-gray-400">
                 Modul disediakan khusus bagi mereka yang tidak mempunyai pengalaman di dalam dunia Blockchain!
                 </p>
                 <div className="text-3xl mx-auto sm:mx-0 gap-4">
