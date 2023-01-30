@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import Logo from "../images/Sekolah.png"
 
 
@@ -8,47 +9,47 @@ const Navbar = () => {
     <div>
       <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-20">
         <div className="relative flex items-center justify-between">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="inline-flex items-center"
           >
            <img src={Logo} alt="" className='w-16' />
-          </a>
+          </Link>
           <ul className=" items-center hidden space-x-8 lg:flex">
             <li>
-              <a
-                href="/"
+              <Link
+                to="/modul"
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Module
-              </a>
+                Modul
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/wagmi"
                 
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 WAGMI
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/tentangkami"
                 
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Tentang Kami
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="/"
+              <Link
+                to="/hubungikami"
                 
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
                 Hubungi Kami
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className=" items-center hidden space-x-8 lg:flex">
@@ -87,12 +88,12 @@ const Navbar = () => {
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
-                      <a
-                        href="/"
+                      <Link
+                        to="/"
                         className="inline-flex items-center"
                       >
                         <img src={Logo} alt="" className='w-10' />
-                      </a>
+                      </Link>
                     </div>
                     <div>
                       <button
@@ -113,37 +114,37 @@ const Navbar = () => {
                   <nav>
                     <ul className="space-y-4">
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          to="/modul"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Module
-                        </a>
+                          Modul
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          href="/wagmi"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           WAGMI
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          href="/tentangkami"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Tentang Kami
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="/"
+                        <Link
+                          href="/hubungikami"
         
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Hubungi Kami
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a
