@@ -123,7 +123,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/wagmi"
+                          to="/wagmi"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           WAGMI
@@ -131,7 +131,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/tentangkami"
+                          to="/tentangkami"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Tentang Kami
@@ -139,7 +139,7 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          href="/hubungikami"
+                          to="/hubungikami"
         
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
