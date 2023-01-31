@@ -26,16 +26,16 @@ const Ama = () => {
                 className=" w-full rounded-md object-cover aspect-square"
                 alt="Solana KL"
               />
-              <div className="p-5 ">
-                <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
+              <div className="p-5 flex justify-between items-center my-auto">
+                <p className=" font-bold text-[#13133e] tracking-wide uppercase">
                   Solana KL
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-2 ">
+                <div className="flex items-center justify-start ">
                   <a
                     href="https://www.youtube.com/live/p3lzcs0n_No?feature=share"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="bg-yellow-400 text-black px-5 py-1 rounded-lg font-semibold text-sm"
                   >
                     Tonton
                   </a>
@@ -49,16 +49,16 @@ const Ama = () => {
                 className=" w-full rounded-md object-cover aspect-square"
                 alt="pitchIn"
               />
-              <div className="p-5 ">
-                <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
+              <div className="p-5 flex justify-between items-center ">
+                <p className=" font-bold text-[#13133e] tracking-wide uppercase">
                   pitchIn : IEO di Malaysia
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-4 ">
+                <div className="flex items-center justify-start">
                   <a
                     href="https://youtu.be/JSVa2TPSf9c"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="bg-yellow-400 text-black px-5 py-1 rounded-lg font-semibold text-sm"
                   >
                     Tonton
                   </a>
@@ -72,16 +72,16 @@ const Ama = () => {
                 className="w-full rounded-md object-cover aspect-square"
                 alt="Cardano Malaysia"
               />
-              <div className="p-5 ">
+              <div className="p-5 flex justify-between items-center ">
                 <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
                   Cardano
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-4 ">
+                <div className="flex items-center justify-start ">
                   <a
                     href="https://www.youtube.com/live/VxW4lodb_p4?feature=share"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="bg-yellow-400 text-black px-5 py-1 rounded-lg font-semibold text-sm"
                   >
                     Tonton
                   </a>
@@ -95,16 +95,16 @@ const Ama = () => {
                 className="w-full rounded-md object-cover aspect-square"
                 alt="NFTPangolin dan Zetrix Blockchain"
               />
-              <div className="p-5 ">
-                <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
+              <div className="p-5 flex justify-between items-center">
+                <p className="font-bold text-[#13133e] tracking-wide uppercase">
                   NFTPangolin dan Zetrix Blockchain
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-4 ">
+                <div className="flex items-center justify-start  ">
                   <a
                     href="https://youtu.be/SiyswQMdj3A"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="bg-yellow-400 text-black px-5 py-1 rounded-lg font-semibold text-sm"
                   >
                     Tonton
                   </a>
@@ -118,16 +118,16 @@ const Ama = () => {
                 className="w-full rounded-md object-cover aspect-square"
                 alt="Metaone"
               />
-              <div className="p-5 ">
+              <div className="p-5 flex justify-between items-center">
                 <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
-                  Metaone: Understanding Gaming Guilds
+                  Metaone
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-4 ">
+                <div className="flex items-center justify-start ">
                   <a
                     href="https://www.youtube.com/live/_YIdKbI25oo?feature=share"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="bg-yellow-400 text-black px-5 py-1rounded-lg font-semibold text-sm"
                   >
                     Tonton
                   </a>
