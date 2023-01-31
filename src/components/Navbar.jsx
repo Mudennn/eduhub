@@ -26,20 +26,20 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/wagmi"
+                to="/ama"
                 
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                WAGMI
+                AMA
               </Link>
             </li>
             <li>
               <Link
-                to="/tentangkami"
+                to="/launchpad"
                 
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Tentang Kami
+                Launchpad
               </Link>
             </li>
             <li>
@@ -123,18 +123,18 @@ const Navbar = () => {
                       </li>
                       <li>
                         <Link
-                          to="/wagmi"
+                          to="/ama"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          WAGMI
+                          AMA
                         </Link>
                       </li>
                       <li>
                         <Link
-                          to="/tentangkami"
+                          to="/launchpad"
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Tentang Kami
+                          Launchpad
                         </Link>
                       </li>
                       <li>
