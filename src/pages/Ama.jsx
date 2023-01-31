@@ -32,7 +32,7 @@ const Ama = () => {
                 </p>
                 <div className="flex items-center justify-start gap-2 mt-2 ">
                   <a
-                    href="/"
+                    href="https://www.youtube.com/live/p3lzcs0n_No?feature=share"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
@@ -55,7 +55,7 @@ const Ama = () => {
                 </p>
                 <div className="flex items-center justify-start gap-2 mt-4 ">
                   <a
-                    href="/"
+                    href="https://youtu.be/JSVa2TPSf9c"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
@@ -78,7 +78,7 @@ const Ama = () => {
                 </p>
                 <div className="flex items-center justify-start gap-2 mt-4 ">
                   <a
-                    href="/"
+                    href="https://www.youtube.com/live/VxW4lodb_p4?feature=share"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
@@ -101,7 +101,7 @@ const Ama = () => {
                 </p>
                 <div className="flex items-center justify-start gap-2 mt-4 ">
                   <a
-                    href="/"
+                    href="https://youtu.be/SiyswQMdj3A"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
@@ -124,7 +124,7 @@ const Ama = () => {
                 </p>
                 <div className="flex items-center justify-start gap-2 mt-4 ">
                   <a
-                    href="/"
+                    href="https://www.youtube.com/live/_YIdKbI25oo?feature=share"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
