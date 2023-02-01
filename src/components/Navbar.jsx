@@ -19,7 +19,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/modul"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
               >
                 Modul
               </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
               <Link
                 to="/ama"
                 
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
               >
                 AMA
               </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
               <Link
                 to="/launchpad"
                 
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
               >
                 Launchpad
               </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link
                 to="/hubungikami"
                 
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
               >
                 Hubungi Kami
               </Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </ul>
           <div className="lg:hidden">
             <button
-              className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline hover:bg-deep-purple-50 focus:bg-deep-purple-50"
+              className="p-2 -mr-1 transition duration-200 rounded focus:outline-none focus:shadow-outline"
               onClick={() => setIsMenuOpen(true)}
             >
               <svg className="w-5 text-white" viewBox="0 0 24 24">
@@ -84,7 +84,7 @@ const Navbar = () => {
               </svg>
             </button>
             {isMenuOpen && (
-              <div className="absolute top-0 left-0 w-full z-10">
+              <div className="absolute top-0 left-0 w-full z-20">
                 <div className="p-5 bg-white border rounded shadow-sm">
                   <div className="flex items-center justify-between mb-4">
                     <div>
@@ -116,7 +116,7 @@ const Navbar = () => {
                       <li>
                         <Link
                           to="/modul"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           Modul
                         </Link>
@@ -124,7 +124,7 @@ const Navbar = () => {
                       <li>
                         <Link
                           to="/ama"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           AMA
                         </Link>
@@ -132,7 +132,7 @@ const Navbar = () => {
                       <li>
                         <Link
                           to="/launchpad"
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           Launchpad
                         </Link>
@@ -141,7 +141,7 @@ const Navbar = () => {
                         <Link
                           to="/hubungikami"
         
-                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="font-medium tracking-wide text-gray-700 transition-colors duration-200"
                         >
                           Hubungi Kami
                         </Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
                       <li>
                         <a
                           href="/"
-                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black  bg-yellow-400 transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                          className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-black  bg-yellow-400 transition duration-200 rounded shadow-md focus:shadow-outline focus:outline-none"
                         >
                           Sign up
                         </a>

@@ -1,10 +1,6 @@
 import React from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
-// import ModulNFT from '../components/ModulNFT'
-// import Sidebar from '../components/Sidebar'
+import { Link } from 'react-router-dom'
 import cardano from '../images/Cardano.jpeg'
-// import metaone from '../images/Metaone.jpeg'
-// import nftpangolin from '../images/NFTPangolin.jpeg'
 import pitchin from '../images/pitchin.jpeg'
 import solana from '../images/solana.jpeg'
 
@@ -21,7 +17,7 @@ const Modul = () => {
         
     // </div>
    <>
-      <div className="py-20 px-4   mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
+      <div className="py-20 px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
         <div className="p-4 ">
           <h3 className=" lg:text-3xl text-3xl font-bold  text-white">
             Modul
