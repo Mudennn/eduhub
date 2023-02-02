@@ -23,7 +23,7 @@ const ModulNFT = () => {
             ></iframe>
             </div>
         </div> */}
-        <div className="mx-auto px-20 mt-10">
+        <div className="mx-auto lg:px-20 px-5 mt-10">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ut dicta in, ducimus quidem voluptatem culpa alias soluta, maxime dolorem laudantium fuga modi reiciendis, debitis sint voluptatum nihil excepturi sapiente?</p>
         </div>
       </div>
