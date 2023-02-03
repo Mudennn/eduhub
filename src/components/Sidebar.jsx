@@ -15,14 +15,14 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="w-full p-6 sm:w-60 bg-gray-900 text-gray-100 md:min-h-screen z-10 ">
+      <div className="w-full p-6  bg-gray-900 text-gray-100 lg:min-h-screen z-10 ">
         <div>
-          <h2 className="hidden md:block font-semibold tracking-wide text-yellow-400">Blockchain</h2>
-          <hr className="hidden md:block my-2"/>
+          <h2 className="hidden lg:block font-semibold tracking-wide text-yellow-400">Blockchain</h2>
+          <hr className="hidden lg:block my-2"/>
           {menus.map((menu, i) => (
             <nav>
               <ul key={i}>
-                <li className=" hidden md:block mt-1">
+                <li className=" hidden lg:block mt-1">
                   <Link
                     to={menu.link}
                     className="text-gray-100 transition-colors duration-200 hover:text-yellow-400"
@@ -34,13 +34,13 @@ const Sidebar = () => {
             </nav>
           ))}
           {/* Topik Button  */}
-          <div className="md:hidden flex justify-start ">
+          <div className="lg:hidden flex justify-start ">
             <button
               className="p-2 transition duration-200 rounded focus:outline-none focus:shadow-outline"
               onClick={() => setIsMenuOpen(true)}
             >
               <div className="flex items-center">
-                <span className="text-md">Topik</span>{" "}
+                <span className="md:text-xl sm:text-md">Topik</span>{" "}
                 <RiArrowDropDownLine className="text-3xl" />
               </div>
             </button>
