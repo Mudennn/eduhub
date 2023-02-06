@@ -15,14 +15,14 @@ const Sidebar = () => {
 
   return (
     <div>
-      <div className="w-full p-6  bg-gray-900 text-gray-100 lg:min-h-screen z-10 ">
+      <div className="w-full lg:w-[300px] p-6   text-gray-100 lg:min-h-screen z-10 ">
         <div>
-          <h2 className="hidden lg:block font-semibold tracking-wide text-yellow-400">Blockchain</h2>
+          <h2 className="hidden lg:block lg:text-2xl font-semibold tracking-wide text-yellow-400">Blockchain</h2>
           <hr className="hidden lg:block my-2"/>
           {menus.map((menu, i) => (
             <nav>
               <ul key={i}>
-                <li className=" hidden lg:block mt-1">
+                <li className=" hidden lg:block mt-3">
                   <Link
                     to={menu.link}
                     className="text-gray-100 transition-colors duration-200 hover:text-yellow-400"

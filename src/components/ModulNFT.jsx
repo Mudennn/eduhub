@@ -3,7 +3,7 @@ import Sidebar from "./Sidebar";
 
 const ModulNFT = () => {
   return (
-    <div className="text-white mx-auto m:max-w-xl md:max-w-full lg:max-w-screen-xl lg:flex lg:flex-row  ">
+    <div className="text-white lg:px-20 mx-auto lg:mt-5 m:max-w-xl md:max-w-full lg:max-w-screen-xl lg:flex lg:flex-row  ">
       
       <Sidebar />
       <div className="mx-auto w-full z-0">

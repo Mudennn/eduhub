@@ -16,7 +16,7 @@ code {
     monospace;
 }
 
-
+/* Module cards  */
 .card {
   transition: all 300ms;
  }
@@ -31,6 +31,7 @@ code {
 background: linear-gradient(90deg, rgba(20,19,63,1) 0%, rgba(102,22,162,1) 50%, rgba(255,255,255,1) 100%);
  }
 
+ /* Responsive Video  */
  .containerVideo {
   position: relative;
   overflow: hidden;

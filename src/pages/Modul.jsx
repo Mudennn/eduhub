@@ -19,24 +19,24 @@ const Modul = () => {
    <>
       <div className="py-20 px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
         <div className="p-4 ">
-          <h3 className=" lg:text-3xl text-3xl font-bold  text-white">
+          <h3 className=" lg:text-3xl text-3xl font-bold text-center  text-white">
             Modul
           </h3>
-          <p className="text-sm lg:text-base py-2  text-gray-400 mt-2">
+          <p className="text-sm lg:text-base py-2 text-center text-gray-400 mt-2">
             Sesi AMA yang pernah kami jalankan.
           </p>
         </div>
 
         <div className="px-4 py-8 mx-2 sm:mx-auto max-w-7xl lg:py-18 ">
           <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
-            <div className="card cursor-pointer overflow-hidden bg-white shadow-lg rounded-lg ">
+            <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg ">
               <img
                 src={solana}
                 className=" w-full rounded-md object-cover aspect-square"
                 alt="Solana KL"
               />
               <div className="p-5 ">
-                <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
+                <p className="mb-1 font-bold text-white tracking-wide uppercase">
                   Pemulaan ke Web3
                 </p>
                 <p className="mb-3 text-gray-400 text-sm  ">
@@ -53,14 +53,14 @@ const Modul = () => {
               </div>
             </div>
 
-            <div className="card cursor-pointer overflow-hidden bg-white shadow-lg rounded-lg ">
+            <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg ">
               <img
                 src={pitchin}
                 className=" w-full rounded-md object-cover aspect-square"
                 alt="pitchIn"
               />
               <div className="p-5 ">
-                <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
+                <p className="mb-1 font-bold text-white tracking-wide uppercase">
                 NFT
                 </p>
                 <p className="mb-3 text-gray-400 text-sm ">
@@ -77,14 +77,14 @@ const Modul = () => {
               </div>
             </div>
 
-            <div className="card cursor-pointer overflow-hidden bg-white shadow-lg rounded-lg">
+            <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg">
               <img
                 src={cardano}
                 className="w-full rounded-md object-cover aspect-square"
                 alt="Cardano Malaysia"
               />
               <div className="p-5 ">
-                <p className="mb-1 font-bold text-[#13133e] tracking-wide uppercase">
+                <p className="mb-1 font-bold text-white tracking-wide uppercase">
                   DeFi
                 </p>
                 <p className="mb-3 text-gray-400 text-sm ">
