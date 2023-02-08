@@ -17,7 +17,7 @@ const Modul = () => {
         
     // </div>
    <>
-      <div className="py-20 px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
+      <div className="lg:py-20 py-10 px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
         <div className="p-4 ">
           <h3 className=" lg:text-3xl text-3xl font-bold text-center  text-white">
             Modul
