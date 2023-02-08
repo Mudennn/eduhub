@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Modal from "../components/Modal";
 import cardano from "../images/Cardano.jpeg";
 import metaone from "../images/Metaone.jpeg";
 import nftpangolin from "../images/NFTPangolin.jpeg";
@@ -12,38 +11,36 @@ const Ama = () => {
     {
       name: "Solana KL",
       image: solana,
-      link: "https://www.youtube.com/live/p3lzcs0n_No?feature=share",
+      link: "https://www.youtube.com/embed/p3lzcs0n_No?feature=share",
     },
-    { name: "pitchIn", image: pitchin, link: "https://youtu.be/JSVa2TPSf9c" },
+    {
+      name: "pitchIn",
+      image: pitchin,
+      link: "https://youtube.com/embed/JSVa2TPSf9c",
+    },
     {
       name: "Cardano",
       image: cardano,
-      link: "https://www.youtube.com/live/VxW4lodb_p4?feature=share",
+      link: "https://www.youtube.com/embed/VxW4lodb_p4?feature=share",
     },
     {
       name: "NFTPangolin dan Zetrix",
       image: nftpangolin,
-      link: "https://youtu.be/SiyswQMdj3A",
+      link: "https://youtube.com/embed/SiyswQMdj3A",
     },
     {
       name: "Metaone",
       image: metaone,
-      link: "https://www.youtube.com/live/_YIdKbI25oo?feature=share",
+      link: "https://www.youtube.com/embed/_YIdKbI25oo?feature=share",
     },
   ];
 
-  // const [showMyModal, setShowMyModal] = useState(false);
-  // const handleOnClose = () => setShowMyModal(false);
-
-  const [modal, setModal] = useState(false);
-  const [videoLoading, setVideoLoading] = useState(true);
-
-  const openModal = () => {
-    setModal(!modal);
-  };
-
-  const spinner = () => {
-    setVideoLoading(!videoLoading);
+  // Popup state 
+  const [popup, setPopup] = useState([]);
+  const [popupToggle, setPopupToggle] = useState(false);
+  const changeContent = (menu) => {
+    setPopup([menu]);
+    setPopupToggle(!popupToggle);
   };
 
   return (
@@ -60,9 +57,8 @@ const Ama = () => {
       <div className="px-4 py-8 mx-2 sm:mx-auto max-w-7xl lg:py-18 ">
         <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
           {ama.map((menu, i) => (
-            <>
-              <div key={i}
-                className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg ">
+            <div key={i}>
+              <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg ">
                 <img
                   src={menu.image}
                   className=" w-full rounded-md object-cover aspect-square"
@@ -72,27 +68,54 @@ const Ama = () => {
                   <p className=" font-bold text-white tracking-wide uppercase">
                     {menu.name}
                   </p>
-                  <div className="flex items-center justify-start "> 
-                    <a
-                      href={menu.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                  <div className="flex items-center justify-start ">
+                    <button
+                      onClick={() => changeContent(menu)}
                       className="bg-yellow-400 text-black px-5 py-1 rounded-lg font-semibold text-sm"
                     >
                       Tonton
-                    </a> 
-                     {/* <button onClick= {() => setShowMyModal(true)}>Click Me</button> */}
-                     
-    
+                    </button>
                   </div>
                 </div>
               </div>
-            </> 
-            
-            ))}
+            </div>
+          ))}
+        </div>
+        {/* Popup untuk bagi video keluar  */}
+        {popupToggle && (
+          <div
+            className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm "
+            onClick={changeContent}
+          >
+            <div
+              className="w-[70%] h-[70%] mx-auto "
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="justify-end flex m-3">
+                <button onClick={changeContent}>
+                  <RiCloseFill className="text-2xl text-white" />
+                </button>
+              </div>
+              <div>
+                {popup.map((pop) => {
+                  return (
+                    <div className="containerVideo aspect-w-16 aspect-h-9">
+                      <iframe
+                        className="responsive-iframe"
+                        src={pop.link}
+                        title={pop.name}
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        )}
       </div>
-      </div>
-      {/* <Modal onClose={handleOnClose} visible={showMyModal}/> */}
     </div>
   );
 };
