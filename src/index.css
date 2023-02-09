@@ -59,20 +59,20 @@ top: 57px; */
 
 background: rgba(5, 0, 255, 0.33);
 /* background: white; */
-filter: blur(200px);
-transform: rotate(-100.76deg);
+filter: blur(150px);
+/* transform: rotate(-100.76deg); */
 }
 .ellipse2 {
 position: absolute;
-width: 400px;
+width: 550px;
 height: 300px;
-/* left: 946.47px;
-top: 57px; */
+ /* left: 946.47px; */
+/* top: px;  */
 
 background: rgba(112, 16, 187, 0.8);
 /* background: white; */
-filter: blur(200px);
-transform: rotate(45.79deg);
+filter: blur(140px);
+/* transform: rotate(45.79deg); */
 }
 
 .card3{
