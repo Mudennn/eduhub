@@ -9,8 +9,8 @@ import NFT from "../components/NFT";
 
 const LandingPage = () => {
   return (
-    <div>
-      <div className="bg-gradient-to-r from-[#14133F] to-[#6616A2]">
+    <div className="z-1">
+      <div >
         <Hero />
       </div>
       <Features />

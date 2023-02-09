@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
-import Logo from "../images/Sekolah.png"
+import Logo from "../images/Kampus.png"
 
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div>
-      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-20">
+      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-20 ">
         <div className="relative flex items-center justify-between">
           <Link
             to="/"
             className="inline-flex items-center"
           >
-           <img src={Logo} alt="" className='w-16' />
+           <img src={Logo} alt="" className='lg:w-32 w-20' />
           </Link>
           <ul className=" items-center hidden space-x-8 lg:flex">
             <li>
@@ -92,7 +92,7 @@ const Navbar = () => {
                         to="/"
                         className="inline-flex items-center"
                       >
-                        <img src={Logo} alt="" className='w-10' />
+                        <img src={Logo} alt="MySekolahKripto" className='w-24' />
                       </Link>
                     </div>
                     <div>

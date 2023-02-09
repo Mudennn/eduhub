@@ -5,9 +5,10 @@ const AboutUs = () => {
   return (
     <div>
       <section>
-        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
-          <div className="flex flex-wrap items-center mx-auto max-w-7xl">
-            <div className="flex flex-col items-start lg:mt-12 lg:mb-16  lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0">
+        <div className="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24 ">
+          <div className="card3 p-5 z-1">
+          <div className="flex flex-wrap items-center mx-auto z-10">
+            <div className="flex flex-col items-start lg:mt-12 lg:mb-16  lg:flex-grow lg:w-1/2 ">
               <p className="mb-3 mt-5 text-base leading-relaxed text-left text-gray-400 tracking-widest">
                 TENTANG KAMI
               </p>
@@ -22,8 +23,8 @@ const AboutUs = () => {
                 Malaysia, dan Tezos Degen Malaysia.
               </p>
             </div>
-            <div className="w-full lg:max-w-lg lg:w-1/3 rounded-xl">
-              <div>
+            <div className="w-full  lg:max-w-lg lg:w-1/3 rounded-xl">
+              
                 <div className="relative w-56 mx-auto sm:w-full md:w-80 max-w-lg">
                   <div className="relative">
                     <img
@@ -33,8 +34,9 @@ const AboutUs = () => {
                     />
                   </div>
                 </div>
-              </div>
+              
             </div>
+          </div>
           </div>
         </div>
       </section>
