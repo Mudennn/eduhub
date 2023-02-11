@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <div>
-      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-20 ">
+      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-20 relative">
         <div className="relative flex items-center justify-between">
           <Link
             to="/"
@@ -19,7 +19,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/modul"
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
+                className="font-medium tracking-wide text-white hover:text-yellow-400 transition-colors duration-200"
               >
                 Modul
               </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
               <Link
                 to="/ama"
                 
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
+                className="font-medium tracking-wide text-white hover:text-yellow-400 transition-colors duration-200"
               >
                 AMA
               </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
               <Link
                 to="/launchpad"
                 
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
+                className="font-medium tracking-wide text-white hover:text-yellow-400 transition-colors duration-200"
               >
                 Launchpad
               </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
               <Link
                 to="/hubungikami"
                 
-                className="font-medium tracking-wide text-gray-100 transition-colors duration-200"
+                className="font-medium tracking-wide text-white hover:text-yellow-400 transition-colors duration-200"
               >
                 Hubungi Kami
               </Link>

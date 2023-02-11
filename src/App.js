@@ -15,7 +15,7 @@ function App() {
     <>
     <div className="bg-[#13133E]">
       
-      <div className="">
+      <div className="relative">
         <Navbar />
       </div>
   

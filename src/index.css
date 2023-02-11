@@ -81,11 +81,11 @@ position: absolute;
 width: 550px;
 height: 300px;
  /* left: 946.47px; */
-/* top: px;  */
+/* top: 0px;  */
 
-/* background: rgba(112, 16, 187, 0.8); */
-background: white;
-filter: blur(1px);
+background: rgba(112, 16, 187, 0.8);
+/* background: white; */
+filter: blur(150px);
 /* transform: rotate(45.79deg); */
 }
 
