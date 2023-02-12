@@ -11,7 +11,7 @@ import Cart from "../images/Other 16.png";
 const Features = () => {
   return (
     <div>
-      <div className="px-4 py-16 my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 relative">
+      <div className="px-4  my-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 relative">
       <div className="ellipse3 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:block hidden"></div>
 
         <div className="max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12 relative ">

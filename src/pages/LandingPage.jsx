@@ -14,11 +14,11 @@ const LandingPage = () => {
         <Hero />
       </div>
       <Features />
-      <div className="bg-gradient-to-r from-[#6616A2] to-[#14133F]">
+      <div>
         <NFT />
       </div>
       <AboutUs />
-      <div className="bg-gradient-to-r from-[#14133F] to-[#6616A2]">
+      <div >
         <Kurikulum />
       </div>
       <FAQ />
