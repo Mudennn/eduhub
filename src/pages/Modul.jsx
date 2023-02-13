@@ -1,29 +1,20 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import cardano from '../images/Cardano.jpeg'
-import pitchin from '../images/pitchin.jpeg'
-import solana from '../images/solana.jpeg'
-
+import React from "react";
+import { Link } from "react-router-dom";
+import img1 from "../images/tezos1.jpg";
+import img2 from "../images/tezos2.jpg";
+import img3 from "../images/tezos3.jpg";
+import { TbArrowUpRight } from "react-icons/tb";
 
 const Modul = () => {
   return (
-    
-    // <div className='flex m:max-w-xl md:max-w-full lg:max-w-screen-xl mx-auto'>
-        
-    //     <Sidebar />
-    //     <Routes>
-    //         <Route path="/modulenft" element={<ModulNFT />}/>
-    //     </Routes>
-        
-    // </div>
-   <>
-      <div className="lg:py-20 py-10 px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
+    <>
+      <div className=" py-10 px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 ">
         <div className="p-4 ">
           <h3 className=" lg:text-3xl text-3xl font-bold text-center  text-white">
             Modul
           </h3>
           <p className="text-sm lg:text-base py-2 text-center text-gray-400 mt-2">
-            Sesi AMA yang pernah kami jalankan.
+            Pilih laluan anda untuk mempelajari asas web3!
           </p>
         </div>
 
@@ -31,7 +22,7 @@ const Modul = () => {
           <div className="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
             <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg ">
               <img
-                src={solana}
+                src={img1}
                 className=" w-full rounded-md object-cover aspect-square"
                 alt="Solana KL"
               />
@@ -40,14 +31,19 @@ const Modul = () => {
                   Pemulaan ke Web3
                 </p>
                 <p className="mb-3 text-gray-400 text-sm  ">
-                Mulakan dari sini jika anda baru menggunakan web3.
+                  Mulakan dari sini jika anda baru menggunakan web3.
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-2 ">
+                <div className="flex items-center justify-start gap-2 mt-auto">
                   <Link
+                    className="group text-yellow-400 transition-all duration-300 ease-in-out"
                     to="/modulnft"
-                    className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
                   >
-                    Mula Belajar
+                    <span className=" flex items-center gap-2 bg-left-bottom bg-gradient-to-r from-yellow-400 to-yellow-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                      Mula Belajar{" "}
+                      <span>
+                        <TbArrowUpRight />
+                      </span>
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -55,23 +51,28 @@ const Modul = () => {
 
             <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg ">
               <img
-                src={pitchin}
+                src={img2}
                 className=" w-full rounded-md object-cover aspect-square"
                 alt="pitchIn"
               />
               <div className="p-5 ">
                 <p className="mb-1 font-bold text-white tracking-wide uppercase">
-                NFT
+                  NFT
                 </p>
                 <p className="mb-3 text-gray-400 text-sm ">
-                Belajar bagaimana cara untuk membeli, menjual dan mint nft.
+                  Belajar bagaimana cara untuk membeli, menjual dan mint nft.
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-4 ">
+                <div className="flex items-center justify-start gap-2 mt-auto ">
                   <Link
-                    to="/"
-                    className="mt-2 text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="group text-yellow-400 transition-all duration-300 ease-in-out"
+                    to="/modulnft"
                   >
-                    Mula Belajar
+                    <span className=" flex items-center gap-2 bg-left-bottom bg-gradient-to-r from-yellow-400 to-yellow-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                      Mula Belajar{" "}
+                      <span>
+                        <TbArrowUpRight />
+                      </span>
+                    </span>
                   </Link>
                 </div>
               </div>
@@ -79,7 +80,7 @@ const Modul = () => {
 
             <div className="card cursor-pointer overflow-hidden bg-transparent bg-gray-300 bg-opacity-20 shadow-lg rounded-lg">
               <img
-                src={cardano}
+                src={img3}
                 className="w-full rounded-md object-cover aspect-square"
                 alt="Cardano Malaysia"
               />
@@ -88,27 +89,29 @@ const Modul = () => {
                   DeFi
                 </p>
                 <p className="mb-3 text-gray-400 text-sm ">
-                Belajar bagaimana nak menyimpan, meminjam dan melabur aset kirpto anda.
+                  Belajar bagaimana nak menyimpan, meminjam dan melabur aset
+                  kirpto anda.
                 </p>
-                <div className="flex items-center justify-start gap-2 mt-4 ">
+                <div className="flex items-center justify-start gap-2 mt-auto ">
                   <Link
-                    to="/"
-                    className="mt-2  text-yellow-500 rounded-lg font-semibold text-sm"
+                    className="group text-yellow-400 transition-all duration-300 ease-in-out"
+                    to="/modulnft"
                   >
-                    Mula Belajar
+                    <span className=" flex items-center gap-2 bg-left-bottom bg-gradient-to-r from-yellow-400 to-yellow-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
+                      Mula Belajar{" "}
+                      <span>
+                        <TbArrowUpRight />
+                      </span>
+                    </span>
                   </Link>
                 </div>
               </div>
             </div>
-
           </div>
-         
         </div>
       </div>
-      </>
+    </>
+  );
+};
 
-    
-  )
-}
-
-export default Modul
+export default Modul;

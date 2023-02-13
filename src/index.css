@@ -26,11 +26,7 @@ code {
   transform: scale(1.10);
  }
 
- .kaler {
-  background: rgb(20,19,63);
-background: linear-gradient(90deg, rgba(20,19,63,1) 0%, rgba(102,22,162,1) 50%, rgba(255,255,255,1) 100%);
- }
-
+ 
  /* Responsive Video  */
  .containerVideo {
   position: relative;
@@ -50,44 +46,32 @@ background: linear-gradient(90deg, rgba(20,19,63,1) 0%, rgba(102,22,162,1) 50%, 
   height: 100%;
 }
 
+/* Focus blur  */
 .ellipse1 {
   position: absolute;
 width: 550px;
 height: 300px;
-/* left: 141.06px;
-top: 57px; */
-
 background: rgba(5, 0, 255, 0.33);
-/* background: white; */
 filter: blur(150px);
-/* transform: rotate(-100.76deg); */
 }
 
 .ellipse2 {
 position: absolute;
 width: 550px;
 height: 300px;
- /* left: 946.47px; */
-/* top: px;  */
-
 background: rgba(112, 16, 187, 0.8);
-/* background: white; */
 filter: blur(140px);
-/* transform: rotate(45.79deg); */
 }
 
 .ellipse3 {
 position: absolute;
 width: 550px;
 height: 300px;
- /* left: 946.47px; */
-/* top: 0px;  */
-
 background: rgba(112, 16, 187, 0.8);
 /* background: white; */
 filter: blur(150px);
-/* transform: rotate(45.79deg); */
 }
+
 
 .card3{
   background: linear-gradient(105.42deg, rgba(255, 255, 255, 0.08) -3.07%, rgba(255, 255, 255, 0.06) 49.04%, rgba(255, 255, 255, 0) 97.84%);
@@ -95,4 +79,63 @@ filter: blur(150px);
 filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.25));
 border-radius: 40px;
 }
+
+
+.button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  /* background-color: #23c483; */
+  background-color: #eebc22;
+  box-shadow: 0px 15px 20px rgba(	238,	188,	34, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+
+
+.button2 {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #eebc22;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button2:hover {
+  /* background-color: #23c483; */
+  background-color: #fff;
+  box-shadow: 0px 15px 20px rgba(	255,	255,	255, 0.4);
+  color: #000;
+  transform: translateY(-7px);
+}
+
+.button2:active {
+  transform: translateY(-1px);
+}
+
 

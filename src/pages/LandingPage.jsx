@@ -22,7 +22,7 @@ const LandingPage = () => {
         <Kurikulum />
       </div>
       <FAQ />
-      <div className="bg-gradient-to-r from-[#6616A2] to-[#14133F]">
+      <div>
         <CTA />
       </div>
     </div>

@@ -18,7 +18,7 @@ const Hero = () => {
                 Modul disediakan khusus bagi mereka yang tidak mempunyai pengalaman di dalam dunia Blockchain!
                 </p>
                 <div className="text-3xl mx-auto sm:mx-0 gap-4">
-                  <button className='text-base font-semibold py-3 px-5 rounded-lg bg-yellow-500'>Mula Belajar</button>
+                  <button className='text-base font-semibold py-3 px-5 rounded-lg transition duration-200 border-2 border-yellow-500 hover:border-white text-yellow-400 hover:bg-white hover:text-black'>Mula Belajar!</button>
                 </div>
               </div>
 
