@@ -5,6 +5,7 @@ import img2 from "../images/tezos2.jpg";
 import img3 from "../images/tezos3.jpg";
 import { TbArrowUpRight } from "react-icons/tb";
 
+//Page list modul yang ada 
 const Modul = () => {
   return (
     <>
@@ -28,15 +29,15 @@ const Modul = () => {
               />
               <div className="p-5 ">
                 <p className="mb-1 font-bold text-white tracking-wide uppercase">
-                  Pemulaan ke Web3
+                  Pengenalan Kepada Blockchain
                 </p>
                 <p className="mb-3 text-gray-400 text-sm  ">
-                  Mulakan dari sini jika anda baru menggunakan web3.
+                  Belajar tentang apa itu blockchain dan ketahui apa prinsip blockchain.
                 </p>
                 <div className="flex items-center justify-start gap-2 mt-auto">
                   <Link
                     className="group text-yellow-400 transition-all duration-300 ease-in-out"
-                    to="/modulnft"
+                    to="/prinsip_blockchain"
                   >
                     <span className=" flex items-center gap-2 bg-left-bottom bg-gradient-to-r from-yellow-400 to-yellow-400 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out">
                       Mula Belajar{" "}
